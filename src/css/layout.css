@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100vw;
+    height: 250px;
+}
+
+.header-btns {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: 120px;
+    left: 150px;
+}
+
+li {
+    list-style: none;
+}
+.aside-menu {
+    display: inline;
+}
+
+.logo {
+    width: 400px;
+    height: 80px;
+    z-index: 1000;
+    margin-left: 200px;
+    position: relative;
+    top: 40px;
+}
+
+.container {
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 900px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+img {
+    width: 400px;
+    height: 250px;
+}
+
+.single-component {
+    width: 400px;
+    height: 800px;
+    position: relative;
+    left: 10px;
+}
+
+aside {
+    width: 300px;
+    height: 600px;
+    position: absolute;
+    left: 900px;
+    top: 200px;
+}
+
+footer {
+    background-color: rgb(20, 19, 19);
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.first-footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+footer img {
+    width: 80px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+     width: 250px;
+    height: 150px;
+    margin-left: 100px;
+    margin-top: 60px; 
+}
+
+
+
+
+.about {
+    width: 400px;
+  
+}
+
+.about  {
+   
+    align-items: flex-start;
+    gap: 15px;
+    margin-top: 20px;
+   
+}
+/* .about h3{
+    text-align: center;
+} */
+.contact-footer {
+   
+    margin-top: 20px;
+   
+    color: white;
+}
+
+.contact-ul {
+    display: block;
+    /* margin-bottom: 200px; */
+    
+   
+    
+   
+}
+
+.last-footer {
+    display: flex;
+    width: 100vw;
+    height: 100px;
+}
+
+.footer-nav {
+    display: flex;
+    margin-left: 400px;
+    margin-top: -90px;
+}
+
+.about-us {
+    width: 900px;
+    margin: 30px;
+}
+
+form {
+    width: 600px;
+    height: 300px;
+    margin-left: 200px;
+}
+
+input {
+    width: 600px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+textarea {
+    width: 600px;
+    height: 60px;
+    border-radius: 10px;
+    margin-bottom: 3px;
+}
+
+
+
